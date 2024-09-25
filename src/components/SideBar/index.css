@@ -1,0 +1,86 @@
+.sideBarContainer{
+    display: none;
+}
+
+@media screen and (min-width:768px){
+    .sideBarContainer{
+        font-family: "poppins",sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 20%;
+        background-color: #FAFAFA;
+    }
+
+    .sideContainer{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+   
+    .iconContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconContainer img{
+        padding-right: 1rem;
+    }
+
+    .iconContainer h1{
+        color: #0A337A;
+    }
+
+    .side-heading{
+        text-align: left;
+        padding-left: 2.5rem;
+        color: #686868;
+        font-size: 12px;
+    }
+
+    .menu-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .icon-style-1{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .icon-style-1 img{
+        padding-right: 1.5rem;
+    }
+
+    .icon-style-1 h4{
+        color: #FF5151;
+        font-size: 12px;
+    }
+
+    .icon-style{
+       /*  width: 50%; */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 10px;
+    }
+    
+    .icon-style img{
+        padding-right: 1.5rem;
+    }
+
+    .icon-style h4{
+        color:#686868;
+        font-size: 12px;
+    }
+}

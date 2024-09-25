@@ -1,0 +1,122 @@
+.bottom-dashboard-container{
+    width: 100%;
+}
+
+@media screen and (min-width:768px){
+    .bottom-dashboard-container{
+        width:43%;
+    }
+}
+
+.activity-container{
+    background-color: #161E54;
+    margin-right: 18px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding-left: .5rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width:768px){
+    .activity-container{
+        height: 41vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;  
+    }
+}
+
+.activity-container h5{
+    font-family: "poppins",sans-serif;
+    background: #1B204A;
+    border-radius: 10px;
+    line-height: 24px;
+    padding-top: 10px;
+    color:#FFFFFF ;
+    font-size: 16px;
+}
+
+.div1 p{
+    font-family: "poppins",sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.div1 h4{
+    font-family: "poppins",sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.div2 p{
+    font-family: "poppins",sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.div2 button{
+    background-color: #FF5151;
+    color: #FFFFFF;
+    height: 40px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.schedule{
+    font-family: "poppins",sans-serif;
+    font-size: 12px;
+    color: #686868;
+}
+
+.time-2{
+    display: none;
+}
+
+.see-all-announcement-1{
+    color: #FF5151;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.create-new-schedule{
+    display: none;
+}
+
+@media screen and (min-width:768px){
+    .time-1{
+        display: none;
+    }
+
+    .time-2{
+        display: inline;
+    }
+
+    .see-all-announcement-1{
+        display: none;
+    }
+
+    .create-new-schedule{
+        display: block;
+        color: #FF5151;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .div2{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        align-items: center;
+    }
+    .div2 button{
+        height: 30px;
+    }
+}
+
